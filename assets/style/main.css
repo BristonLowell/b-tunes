@@ -7,7 +7,27 @@
  */
 
 .row-height{
-  height: 70vh;
+  height: 75vh;
+}
+
+
+
+.example{
+  overflow-y:scroll;
+}
+
+.example::-webkit-scrollbar{
+  display: none;
+  }
+
+.example{
+  -ms-overflow-style: none;
+  scrollbar-width:none;
+}
+
+.background-image{
+  background-size: contain;
+  background-image: url("https://www.teahub.io/photos/full/277-2771936_music-studio-wallpaper-4k.jpg");
 }
 
 :root {

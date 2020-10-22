@@ -18,6 +18,7 @@ class SongsService {
     $.getJSON(url)
       .then(res => {
         ProxyState.songs = res.results.map(rawData => new Song(rawData));
+        ProxyState.songs = ProxyState.songs.filter(p => p.price < 4);
         console.log(ProxyState.songs)
       })
       .catch(err => {

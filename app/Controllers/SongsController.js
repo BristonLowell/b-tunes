@@ -34,6 +34,8 @@ export default class SongsController {
     } catch (error) {
       console.error(error);
     }
+    // @ts-ignore
+    document.getElementById("form").reset()
   }
 
   /**
