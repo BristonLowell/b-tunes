@@ -26,7 +26,7 @@
 }
 
 .background-image{
-  background-size: contain;
+  background-size: cover;
   background-image: url("https://www.teahub.io/photos/full/277-2771936_music-studio-wallpaper-4k.jpg");
 }
 
